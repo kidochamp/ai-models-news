@@ -1,0 +1,20 @@
+{
+  "name": "ai-models-news",
+  "version": "1.0.0",
+  "description": "AI Models News - Daily AI news powered by Gemini",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "generate-article": "node scripts/generateArticle.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "node-cron": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
